@@ -1,0 +1,23 @@
+:root {
+    --bs-primary: #1c4a2a;
+    --bs-primary-rgb: 28, 74, 42;
+}
+
+:hover {
+
+    rotate: 0.1deg;
+
+}
+
+
+
+div {
+    transition: 1s;
+}
+
+i {
+    font-size: 2.5rem;
+    margin: auto 10px
+}
+
+`
