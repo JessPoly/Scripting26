@@ -1,0 +1,205 @@
+:root {
+    --bs-primary: #608358;
+    --bs-primary-rgb: 96, 131, 88;
+
+    --bs-primary-bg-subtle: #b9ddb1;
+    --bs-primary-bg-subtle-rgb: 185, 221, 177;
+
+    --bs-link-color: #000000;
+    --bs-link-color-rgb: 37, 59, 32;
+
+    --bs-link-hover-color: #ffffff;
+    --bs-link-hover-color-rgb: 37, 59, 32;
+}
+
+.aladin-regular,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.asul-regular,
+p,
+nav {
+    font-family: "Asul", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.asul-bold {
+    font-family: "Asul", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@keyframes myAnimation {
+    0% {
+        background: #C9B181;
+    }
+
+
+    25% {
+        background: #629539;
+    }
+
+    50% {
+        background: #C9B181;
+    }
+
+    75% {
+        background: #629539;
+    }
+
+    100% {
+        background: #C9B181;
+    }
+}
+
+/* ***************************************************** */
+body {
+    background: #C9B181;
+    /*  */
+    animation-name: myAnimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+/* ******** */
+
+.row {
+    background-color: #ffffffe5;
+
+}
+
+h1 {
+    font-size: clamp(1rem, 1.5rem + 5vw, 35rem);
+    font-family: "Aladin", cursive, system-ui;
+    font-weight: 900;
+    font-style: oblique;
+    font-variant: small-caps;
+}
+
+.footer123 {
+    background: #629539;
+    background: linear-gradient(180deg, #c9b18105 50%, #62953979 100%);
+}
+
+.longparagraph {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+i {
+    transition: all 0.5s;
+    font-size: x-large;
+    color: inherit;
+    background-color: #ffffffe5;
+    border-radius: 25%;
+    padding: 2px 5px;
+}
+
+i:hover {
+    font-size: xx-large;
+    color: inherit;
+    background-color: #ffffffe5;
+    border-radius: 25%;
+    padding: 2px 5px;
+
+}
+
+.explore {
+    background-image: url("../images/temp.jpg");
+}
+
+.explore p {
+    transition: all 0.5s;
+    opacity: 0.9;
+    box-shadow: 10px 10px 16px -4px #38503378;
+    -webkit-box-shadow: 10px 10px 16px -4px #38503378;
+    -moz-box-shadow: 10px 10px 16px -4px #38503378;
+    width: 120px;
+    /*  */
+    font-family: "Asul", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.explore p:hover {
+    opacity: 1.0;
+    box-shadow: 10px 10px 16px -5px #38503378;
+    -webkit-box-shadow: 10px 10px 16px -5px #38503378;
+    -moz-box-shadow: 10px 10px 16px -5px #38503378;
+    outline-width: 5px;
+    width: 200px;
+    font-weight: 900;
+}
+
+/*  */
+.image123 {
+    background-image: url("../images/IndexCity.jpg");
+}
+
+.imagereference {
+    background-image: url("../images/IndexCity.jpg");
+    background-size: 300px;
+}
+
+.imagegeography {
+    background-image: url("../images/LocationForest.jpg");
+    background-size: 300px;
+}
+
+.imageeconomy {
+    background-image: url("../images/potion.jpg");
+    background-size: 300px;
+}
+
+.imagepeople {
+    background-image: url("../images/OldImage.jpg");
+    background-size: 300px;
+}
+
+.imageattraction {
+    background-image: url("../images/marketplace.jpg");
+    background-size: 300px;
+    outline-width: 5px;
+}
+
+/* from w3 schools */
+/* NAV BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+ul li {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #ffffffef;
+}
+
+.nav-item {
+    font-size: inherit;
+    font-weight: inherit;
+    transition: all 0.5s;
+}
+
+.nav-item:hover {
+    font-size: larger;
+    font-weight: 700;
+}
